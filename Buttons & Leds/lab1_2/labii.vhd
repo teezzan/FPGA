@@ -22,8 +22,6 @@ entity labii is
 		);
 end labii;
 
--- Library Clause(s) (optional)
--- Use Clause(s) (optional)
 
 architecture SUMMER of labii is
 

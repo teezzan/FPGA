@@ -23,8 +23,6 @@ entity sevenseg is
 		CONSTANT ff: STD_LOGIC_VECTOR(0 TO 6) :=	"0111000"
 		
 			);
-
-
 	port
 	(
 		-- Input ports
@@ -43,13 +41,8 @@ entity sevenseg is
 end sevenseg;
 
 
-
--- Library Clause(s) (optional)
--- Use Clause(s) (optional)
-
 architecture change of sevenseg  is
 
-	-- Declarations (optional)
 
 begin
 
