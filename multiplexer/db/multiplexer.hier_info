@@ -1,0 +1,33 @@
+|multiplexer
+x0 => y~6.DATAB
+x1 => y~5.DATAB
+x2 => y~4.DATAB
+x3 => y~3.DATAB
+x4 => y~2.DATAB
+x5 => y~1.DATAB
+x6 => y~0.DATAB
+x7 => y~0.DATAA
+sel[0] => Equal0.IN0
+sel[0] => Equal1.IN2
+sel[0] => Equal2.IN1
+sel[0] => Equal3.IN2
+sel[0] => Equal4.IN1
+sel[0] => Equal5.IN2
+sel[0] => Equal6.IN2
+sel[1] => Equal0.IN2
+sel[1] => Equal1.IN0
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN1
+sel[1] => Equal4.IN2
+sel[1] => Equal5.IN1
+sel[1] => Equal6.IN1
+sel[2] => Equal0.IN1
+sel[2] => Equal1.IN1
+sel[2] => Equal2.IN2
+sel[2] => Equal3.IN0
+sel[2] => Equal4.IN0
+sel[2] => Equal5.IN0
+sel[2] => Equal6.IN0
+y <= y~6.DB_MAX_OUTPUT_PORT_TYPE
+
+

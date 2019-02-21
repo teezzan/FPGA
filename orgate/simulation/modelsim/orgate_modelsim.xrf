@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/TEEE/Documents/FPGA/orgate/orgate.vhd
+source_file = 1, C:/Users/TEEE/Documents/FPGA/orgate/Waveform.vwf
+source_file = 1, C:/Users/TEEE/Documents/FPGA/orgate/db/orgate.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = orgate
+instance = comp, \PB2~I , PB2, orgate, 1
+instance = comp, \PB1~I , PB1, orgate, 1
+instance = comp, \LED~0 , LED~0, orgate, 1
+instance = comp, \LED~I , LED, orgate, 1

@@ -1,0 +1,26 @@
+----------------------------------------------
+ LIBRARY ieee;
+ USE ieee.std_logic_1164.all;
+ ----------------------------------------------
+ ENTITY shiftreg IS
+ PORT (clk, inp: IN STD_LOGIC;
+ a0,a1,a2,a3,a4,a5,a6,a7: OUT STD_LOGIC
+ );
+ END ENTITY;
+ ----------------------------------------------
+ ARCHITECTURE circuit OF shiftreg IS
+ BEGIN
+ PROCESS (clk)
+ BEGIN
+ IF (clk'EVENT AND clk='1') THEN
+ a7 <= a6;
+ a6 <= a5;
+ a5 <= a4;
+ a4 <= a3;
+ a3 <= a2;
+ a2 <= a1;
+ a1 <= a0;
+ a0 <= inp;
+ END IF;
+ END PROCESS;
+ END ARCHITECTURE;

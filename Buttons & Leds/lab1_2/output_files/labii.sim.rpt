@@ -1,0 +1,249 @@
+Simulator report for labii
+Wed Feb 20 12:08:27 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 62 nodes     ;
+; Simulation Coverage         ;      50.00 % ;
+; Total Number of Transitions ; 327          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                 ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                               ; Default Value ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                            ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                  ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                   ;               ;
+; Vector input source                                                                        ; C:/Users/TEEE/Documents/FPGA/VHDL LAB1_2/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                    ; On            ;
+; Check outputs                                                                              ; Off                                                   ; Off           ;
+; Report simulation coverage                                                                 ; On                                                    ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                    ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                    ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                    ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                   ; Off           ;
+; Detect glitches                                                                            ; Off                                                   ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                   ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                   ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                   ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                   ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                    ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                            ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                   ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                   ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                  ; Auto          ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      50.00 % ;
+; Total nodes checked                                 ; 62           ;
+; Total output ports checked                          ; 62           ;
+; Total output ports with complete 1/0-value coverage ; 31           ;
+; Total output ports with no 1/0-value coverage       ; 25           ;
+; Total output ports with no 1-value coverage         ; 25           ;
+; Total output ports with no 0-value coverage         ; 31           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------+
+; Complete 1/0-Value Coverage                          ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |labii|A[0]    ; |labii|A[0]      ; out              ;
+; |labii|A[1]    ; |labii|A[1]      ; out              ;
+; |labii|A[2]    ; |labii|A[2]      ; out              ;
+; |labii|A[3]    ; |labii|A[3]      ; out              ;
+; |labii|B[0]    ; |labii|B[0]      ; out              ;
+; |labii|B[1]    ; |labii|B[1]      ; out              ;
+; |labii|B[2]    ; |labii|B[2]      ; out              ;
+; |labii|B[3]    ; |labii|B[3]      ; out              ;
+; |labii|C[1]    ; |labii|C[1]      ; pin_out          ;
+; |labii|C[2]    ; |labii|C[2]      ; pin_out          ;
+; |labii|C[3]    ; |labii|C[3]      ; pin_out          ;
+; |labii|C[4]    ; |labii|C[4]      ; pin_out          ;
+; |labii|Add0~1  ; |labii|Add0~1    ; out0             ;
+; |labii|Add0~2  ; |labii|Add0~2    ; out0             ;
+; |labii|Add0~3  ; |labii|Add0~3    ; out0             ;
+; |labii|Add0~4  ; |labii|Add0~4    ; out0             ;
+; |labii|Add0~5  ; |labii|Add0~5    ; out0             ;
+; |labii|Add0~6  ; |labii|Add0~6    ; out0             ;
+; |labii|Add0~7  ; |labii|Add0~7    ; out0             ;
+; |labii|Add0~8  ; |labii|Add0~8    ; out0             ;
+; |labii|Add0~9  ; |labii|Add0~9    ; out0             ;
+; |labii|Add0~10 ; |labii|Add0~10   ; out0             ;
+; |labii|Add0~11 ; |labii|Add0~11   ; out0             ;
+; |labii|Add0~12 ; |labii|Add0~12   ; out0             ;
+; |labii|Add0~13 ; |labii|Add0~13   ; out0             ;
+; |labii|Add0~14 ; |labii|Add0~14   ; out0             ;
+; |labii|Add0~15 ; |labii|Add0~15   ; out0             ;
+; |labii|Add0~16 ; |labii|Add0~16   ; out0             ;
+; |labii|Add0~17 ; |labii|Add0~17   ; out0             ;
+; |labii|Add0~19 ; |labii|Add0~19   ; out0             ;
+; |labii|Add0~21 ; |labii|Add0~21   ; out0             ;
++----------------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------+
+; Missing 1-Value Coverage                             ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |labii|A[5]    ; |labii|A[5]      ; out              ;
+; |labii|A[6]    ; |labii|A[6]      ; out              ;
+; |labii|A[7]    ; |labii|A[7]      ; out              ;
+; |labii|B[5]    ; |labii|B[5]      ; out              ;
+; |labii|B[6]    ; |labii|B[6]      ; out              ;
+; |labii|B[7]    ; |labii|B[7]      ; out              ;
+; |labii|C[0]    ; |labii|C[0]      ; pin_out          ;
+; |labii|C[6]    ; |labii|C[6]      ; pin_out          ;
+; |labii|C[7]    ; |labii|C[7]      ; pin_out          ;
+; |labii|C[8]    ; |labii|C[8]      ; pin_out          ;
+; |labii|Add0~0  ; |labii|Add0~0    ; out0             ;
+; |labii|Add0~23 ; |labii|Add0~23   ; out0             ;
+; |labii|Add0~24 ; |labii|Add0~24   ; out0             ;
+; |labii|Add0~25 ; |labii|Add0~25   ; out0             ;
+; |labii|Add0~26 ; |labii|Add0~26   ; out0             ;
+; |labii|Add0~27 ; |labii|Add0~27   ; out0             ;
+; |labii|Add0~28 ; |labii|Add0~28   ; out0             ;
+; |labii|Add0~29 ; |labii|Add0~29   ; out0             ;
+; |labii|Add0~30 ; |labii|Add0~30   ; out0             ;
+; |labii|Add0~31 ; |labii|Add0~31   ; out0             ;
+; |labii|Add0~32 ; |labii|Add0~32   ; out0             ;
+; |labii|Add0~33 ; |labii|Add0~33   ; out0             ;
+; |labii|Add0~34 ; |labii|Add0~34   ; out0             ;
+; |labii|Add0~35 ; |labii|Add0~35   ; out0             ;
+; |labii|Add0~36 ; |labii|Add0~36   ; out0             ;
++----------------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------+
+; Missing 0-Value Coverage                             ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |labii|A[4]    ; |labii|A[4]      ; out              ;
+; |labii|A[5]    ; |labii|A[5]      ; out              ;
+; |labii|A[6]    ; |labii|A[6]      ; out              ;
+; |labii|A[7]    ; |labii|A[7]      ; out              ;
+; |labii|B[4]    ; |labii|B[4]      ; out              ;
+; |labii|B[5]    ; |labii|B[5]      ; out              ;
+; |labii|B[6]    ; |labii|B[6]      ; out              ;
+; |labii|B[7]    ; |labii|B[7]      ; out              ;
+; |labii|C[0]    ; |labii|C[0]      ; pin_out          ;
+; |labii|C[5]    ; |labii|C[5]      ; pin_out          ;
+; |labii|C[6]    ; |labii|C[6]      ; pin_out          ;
+; |labii|C[7]    ; |labii|C[7]      ; pin_out          ;
+; |labii|C[8]    ; |labii|C[8]      ; pin_out          ;
+; |labii|Add0~0  ; |labii|Add0~0    ; out0             ;
+; |labii|Add0~18 ; |labii|Add0~18   ; out0             ;
+; |labii|Add0~20 ; |labii|Add0~20   ; out0             ;
+; |labii|Add0~22 ; |labii|Add0~22   ; out0             ;
+; |labii|Add0~23 ; |labii|Add0~23   ; out0             ;
+; |labii|Add0~24 ; |labii|Add0~24   ; out0             ;
+; |labii|Add0~25 ; |labii|Add0~25   ; out0             ;
+; |labii|Add0~26 ; |labii|Add0~26   ; out0             ;
+; |labii|Add0~27 ; |labii|Add0~27   ; out0             ;
+; |labii|Add0~28 ; |labii|Add0~28   ; out0             ;
+; |labii|Add0~29 ; |labii|Add0~29   ; out0             ;
+; |labii|Add0~30 ; |labii|Add0~30   ; out0             ;
+; |labii|Add0~31 ; |labii|Add0~31   ; out0             ;
+; |labii|Add0~32 ; |labii|Add0~32   ; out0             ;
+; |labii|Add0~33 ; |labii|Add0~33   ; out0             ;
+; |labii|Add0~34 ; |labii|Add0~34   ; out0             ;
+; |labii|Add0~35 ; |labii|Add0~35   ; out0             ;
+; |labii|Add0~36 ; |labii|Add0~36   ; out0             ;
++----------------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Feb 20 12:08:26 2019
+Info: Command: quartus_sim --simulation_results_format=VWF labii -c labii
+Info (324025): Using vector source file "C:/Users/TEEE/Documents/FPGA/VHDL LAB1_2/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      50.00 %
+Info (328052): Number of transitions in simulation is 327
+Info (324045): Vector file labii.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4459 megabytes
+    Info: Processing ended: Wed Feb 20 12:08:27 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

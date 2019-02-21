@@ -1,0 +1,6 @@
+|orgate
+PB1 => LED~0.IN0
+PB2 => LED~0.IN1
+LED <= LED~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

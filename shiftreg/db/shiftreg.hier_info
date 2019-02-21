@@ -1,0 +1,28 @@
+|shiftreg
+clk => a0~reg0.CLK
+clk => a1~reg0.CLK
+clk => a2~reg0.CLK
+clk => a3~reg0.CLK
+clk => a4~reg0.CLK
+clk => a5~reg0.CLK
+clk => a6~reg0.CLK
+clk => a7~reg0.CLK
+clk => ab0.CLK
+clk => ab1.CLK
+clk => ab2.CLK
+clk => ab3.CLK
+clk => ab4.CLK
+clk => ab5.CLK
+clk => ab6.CLK
+clk => ab7.CLK
+inp => ab0.DATAIN
+a0 <= a0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a1 <= a1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a2 <= a2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a3 <= a3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a4 <= a4~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a5 <= a5~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a6 <= a6~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a7 <= a7~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

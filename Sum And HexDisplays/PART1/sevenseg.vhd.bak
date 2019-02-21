@@ -1,0 +1,38 @@
+entity sevenseg is
+	
+
+
+	port
+	(
+		-- Input ports
+		B	: in  NATURAL 0 TO 15;
+		B	: in  NATURAL 0 TO 15;
+		B	: in  NATURAL 0 TO 15;
+		B	: in  NATURAL 0 TO 15;
+
+		-- Output ports
+		B	: in  NATURAL 0 TO 255;
+		B	: in  NATURAL 0 TO 255;
+
+		<name>	: out <type> := <default_value>
+	);
+end sevenseg;
+
+
+		  B10001000,  //  0
+        B11101011,  //  1
+        B01001100,  //  2
+        B01001001,  //  3
+        B00101011,  //  4
+        B00011001,  //  5
+        B00011000,  //  6
+        B11001011,  //  7
+        B00001000,  //  8
+        B00001011,  //  9
+        B00001010,  //  A
+        B00111000,  //  B
+        B10011100,  //  C
+        B01101000,  //  D
+        B00011100,  //  E
+        B00011110,  //  F
+        B01011101  //  Error

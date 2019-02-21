@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="labii">
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_0dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Div3" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_65m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_85m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_0dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_4dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|labii|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_85m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,29 @@
+ LIBRARY ieee;
+ USE ieee.std_logic_1164.all;
+
+entity combo is
+	
+
+	port
+	(
+		-- Input ports
+		SW: in  STD_LOGIC_VECTOR(15 downto 0);
+
+		
+		-- Output ports
+		LD	: out STD_LOGIC_VECTOR(15 downto 0);
+	);
+end combo;
+
+-- Library Clause(s) (optional)
+-- Use Clause(s) (optional)
+
+architecture switch of combo is
+
+	-- Declarations (optional)
+
+begin
+
+	LD<=SW;
+
+end switch;

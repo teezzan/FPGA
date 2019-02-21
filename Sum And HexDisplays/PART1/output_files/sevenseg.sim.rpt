@@ -1,0 +1,581 @@
+Simulator report for sevenseg
+Wed Feb 20 14:39:14 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 372 nodes    ;
+; Simulation Coverage         ;      81.45 % ;
+; Total Number of Transitions ; 4827         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                                          ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                                        ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                                     ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                                           ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                                            ;               ;
+; Vector input source                                                                        ; C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART1/simulation/qsim/sevenseg1.sim.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                                             ; On            ;
+; Check outputs                                                                              ; Off                                                                            ; Off           ;
+; Report simulation coverage                                                                 ; On                                                                             ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                                             ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                                             ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                                             ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                                            ; Off           ;
+; Detect glitches                                                                            ; Off                                                                            ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                                            ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                                            ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                            ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                                            ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                             ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                     ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                            ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                            ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                           ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      81.45 % ;
+; Total nodes checked                                 ; 372          ;
+; Total output ports checked                          ; 372          ;
+; Total output ports with complete 1/0-value coverage ; 303          ;
+; Total output ports with no 1/0-value coverage       ; 47           ;
+; Total output ports with no 1-value coverage         ; 62           ;
+; Total output ports with no 0-value coverage         ; 54           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                  ;
++---------------------+---------------------+------------------+
+; Node Name           ; Output Port Name    ; Output Port Type ;
++---------------------+---------------------+------------------+
+; |sevenseg|hx0~0     ; |sevenseg|hx0~0     ; out              ;
+; |sevenseg|hx0~1     ; |sevenseg|hx0~1     ; out              ;
+; |sevenseg|hx0~2     ; |sevenseg|hx0~2     ; out              ;
+; |sevenseg|hx0~3     ; |sevenseg|hx0~3     ; out              ;
+; |sevenseg|hx0~4     ; |sevenseg|hx0~4     ; out              ;
+; |sevenseg|hx0~5     ; |sevenseg|hx0~5     ; out              ;
+; |sevenseg|hx0~6     ; |sevenseg|hx0~6     ; out              ;
+; |sevenseg|hx0~7     ; |sevenseg|hx0~7     ; out              ;
+; |sevenseg|hx0~8     ; |sevenseg|hx0~8     ; out              ;
+; |sevenseg|hx0~9     ; |sevenseg|hx0~9     ; out              ;
+; |sevenseg|hx0~10    ; |sevenseg|hx0~10    ; out              ;
+; |sevenseg|hx0~11    ; |sevenseg|hx0~11    ; out              ;
+; |sevenseg|hx0~12    ; |sevenseg|hx0~12    ; out              ;
+; |sevenseg|hx0~13    ; |sevenseg|hx0~13    ; out              ;
+; |sevenseg|hx0~14    ; |sevenseg|hx0~14    ; out              ;
+; |sevenseg|hx0~15    ; |sevenseg|hx0~15    ; out              ;
+; |sevenseg|hx0~16    ; |sevenseg|hx0~16    ; out              ;
+; |sevenseg|hx0~17    ; |sevenseg|hx0~17    ; out              ;
+; |sevenseg|hx0~18    ; |sevenseg|hx0~18    ; out              ;
+; |sevenseg|hx0~19    ; |sevenseg|hx0~19    ; out              ;
+; |sevenseg|hx0~20    ; |sevenseg|hx0~20    ; out              ;
+; |sevenseg|hx0~21    ; |sevenseg|hx0~21    ; out              ;
+; |sevenseg|hx0~22    ; |sevenseg|hx0~22    ; out              ;
+; |sevenseg|hx0~23    ; |sevenseg|hx0~23    ; out              ;
+; |sevenseg|hx0~24    ; |sevenseg|hx0~24    ; out              ;
+; |sevenseg|hx0~25    ; |sevenseg|hx0~25    ; out              ;
+; |sevenseg|hx0~26    ; |sevenseg|hx0~26    ; out              ;
+; |sevenseg|hx0~27    ; |sevenseg|hx0~27    ; out              ;
+; |sevenseg|hx0~28    ; |sevenseg|hx0~28    ; out              ;
+; |sevenseg|hx0~29    ; |sevenseg|hx0~29    ; out              ;
+; |sevenseg|hx0~30    ; |sevenseg|hx0~30    ; out              ;
+; |sevenseg|hx0~31    ; |sevenseg|hx0~31    ; out              ;
+; |sevenseg|hx0~32    ; |sevenseg|hx0~32    ; out              ;
+; |sevenseg|hx0~33    ; |sevenseg|hx0~33    ; out              ;
+; |sevenseg|hx0~34    ; |sevenseg|hx0~34    ; out              ;
+; |sevenseg|hx0~35    ; |sevenseg|hx0~35    ; out              ;
+; |sevenseg|hx0~36    ; |sevenseg|hx0~36    ; out              ;
+; |sevenseg|hx0~37    ; |sevenseg|hx0~37    ; out              ;
+; |sevenseg|hx0~38    ; |sevenseg|hx0~38    ; out              ;
+; |sevenseg|hx0~39    ; |sevenseg|hx0~39    ; out              ;
+; |sevenseg|hx0~40    ; |sevenseg|hx0~40    ; out              ;
+; |sevenseg|hx0~41    ; |sevenseg|hx0~41    ; out              ;
+; |sevenseg|hx0~42    ; |sevenseg|hx0~42    ; out              ;
+; |sevenseg|hx0~43    ; |sevenseg|hx0~43    ; out              ;
+; |sevenseg|hx0~44    ; |sevenseg|hx0~44    ; out              ;
+; |sevenseg|hx0~45    ; |sevenseg|hx0~45    ; out              ;
+; |sevenseg|hx0~46    ; |sevenseg|hx0~46    ; out              ;
+; |sevenseg|hx0~47    ; |sevenseg|hx0~47    ; out              ;
+; |sevenseg|hx0~48    ; |sevenseg|hx0~48    ; out              ;
+; |sevenseg|hx0~49    ; |sevenseg|hx0~49    ; out              ;
+; |sevenseg|hx0~50    ; |sevenseg|hx0~50    ; out              ;
+; |sevenseg|hx0~51    ; |sevenseg|hx0~51    ; out              ;
+; |sevenseg|hx0~52    ; |sevenseg|hx0~52    ; out              ;
+; |sevenseg|hx0~53    ; |sevenseg|hx0~53    ; out              ;
+; |sevenseg|hx0~54    ; |sevenseg|hx0~54    ; out              ;
+; |sevenseg|hx0~55    ; |sevenseg|hx0~55    ; out              ;
+; |sevenseg|hx0~56    ; |sevenseg|hx0~56    ; out              ;
+; |sevenseg|hx0~57    ; |sevenseg|hx0~57    ; out              ;
+; |sevenseg|hx0~58    ; |sevenseg|hx0~58    ; out              ;
+; |sevenseg|hx0~59    ; |sevenseg|hx0~59    ; out              ;
+; |sevenseg|hx0~60    ; |sevenseg|hx0~60    ; out              ;
+; |sevenseg|hx0~61    ; |sevenseg|hx0~61    ; out              ;
+; |sevenseg|hx0~62    ; |sevenseg|hx0~62    ; out              ;
+; |sevenseg|hx0~63    ; |sevenseg|hx0~63    ; out              ;
+; |sevenseg|hx0~64    ; |sevenseg|hx0~64    ; out              ;
+; |sevenseg|hx0~65    ; |sevenseg|hx0~65    ; out              ;
+; |sevenseg|hx0~66    ; |sevenseg|hx0~66    ; out              ;
+; |sevenseg|hx1~14    ; |sevenseg|hx1~14    ; out              ;
+; |sevenseg|hx1~17    ; |sevenseg|hx1~17    ; out              ;
+; |sevenseg|hx1~18    ; |sevenseg|hx1~18    ; out              ;
+; |sevenseg|hx1~19    ; |sevenseg|hx1~19    ; out              ;
+; |sevenseg|hx1~20    ; |sevenseg|hx1~20    ; out              ;
+; |sevenseg|hx1~21    ; |sevenseg|hx1~21    ; out              ;
+; |sevenseg|hx1~22    ; |sevenseg|hx1~22    ; out              ;
+; |sevenseg|hx1~23    ; |sevenseg|hx1~23    ; out              ;
+; |sevenseg|hx1~24    ; |sevenseg|hx1~24    ; out              ;
+; |sevenseg|hx1~25    ; |sevenseg|hx1~25    ; out              ;
+; |sevenseg|hx1~26    ; |sevenseg|hx1~26    ; out              ;
+; |sevenseg|hx1~27    ; |sevenseg|hx1~27    ; out              ;
+; |sevenseg|hx1~28    ; |sevenseg|hx1~28    ; out              ;
+; |sevenseg|hx1~29    ; |sevenseg|hx1~29    ; out              ;
+; |sevenseg|hx1~30    ; |sevenseg|hx1~30    ; out              ;
+; |sevenseg|hx1~31    ; |sevenseg|hx1~31    ; out              ;
+; |sevenseg|hx1~32    ; |sevenseg|hx1~32    ; out              ;
+; |sevenseg|hx1~33    ; |sevenseg|hx1~33    ; out              ;
+; |sevenseg|hx1~34    ; |sevenseg|hx1~34    ; out              ;
+; |sevenseg|hx1~35    ; |sevenseg|hx1~35    ; out              ;
+; |sevenseg|hx1~36    ; |sevenseg|hx1~36    ; out              ;
+; |sevenseg|hx1~37    ; |sevenseg|hx1~37    ; out              ;
+; |sevenseg|hx1~38    ; |sevenseg|hx1~38    ; out              ;
+; |sevenseg|hx1~39    ; |sevenseg|hx1~39    ; out              ;
+; |sevenseg|hx1~40    ; |sevenseg|hx1~40    ; out              ;
+; |sevenseg|hx1~41    ; |sevenseg|hx1~41    ; out              ;
+; |sevenseg|hx1~42    ; |sevenseg|hx1~42    ; out              ;
+; |sevenseg|hx1~43    ; |sevenseg|hx1~43    ; out              ;
+; |sevenseg|hx1~44    ; |sevenseg|hx1~44    ; out              ;
+; |sevenseg|hx1~45    ; |sevenseg|hx1~45    ; out              ;
+; |sevenseg|hx1~46    ; |sevenseg|hx1~46    ; out              ;
+; |sevenseg|hx1~47    ; |sevenseg|hx1~47    ; out              ;
+; |sevenseg|hx1~48    ; |sevenseg|hx1~48    ; out              ;
+; |sevenseg|hx1~49    ; |sevenseg|hx1~49    ; out              ;
+; |sevenseg|hx1~50    ; |sevenseg|hx1~50    ; out              ;
+; |sevenseg|hx1~51    ; |sevenseg|hx1~51    ; out              ;
+; |sevenseg|hx1~52    ; |sevenseg|hx1~52    ; out              ;
+; |sevenseg|hx1~53    ; |sevenseg|hx1~53    ; out              ;
+; |sevenseg|hx1~54    ; |sevenseg|hx1~54    ; out              ;
+; |sevenseg|hx1~55    ; |sevenseg|hx1~55    ; out              ;
+; |sevenseg|hx1~56    ; |sevenseg|hx1~56    ; out              ;
+; |sevenseg|hx1~57    ; |sevenseg|hx1~57    ; out              ;
+; |sevenseg|hx1~58    ; |sevenseg|hx1~58    ; out              ;
+; |sevenseg|hx1~59    ; |sevenseg|hx1~59    ; out              ;
+; |sevenseg|hx1~60    ; |sevenseg|hx1~60    ; out              ;
+; |sevenseg|hx1~61    ; |sevenseg|hx1~61    ; out              ;
+; |sevenseg|hx1~62    ; |sevenseg|hx1~62    ; out              ;
+; |sevenseg|hx1~63    ; |sevenseg|hx1~63    ; out              ;
+; |sevenseg|hx1~64    ; |sevenseg|hx1~64    ; out              ;
+; |sevenseg|hx1~65    ; |sevenseg|hx1~65    ; out              ;
+; |sevenseg|hx1~66    ; |sevenseg|hx1~66    ; out              ;
+; |sevenseg|hx2~0     ; |sevenseg|hx2~0     ; out              ;
+; |sevenseg|hx2~1     ; |sevenseg|hx2~1     ; out              ;
+; |sevenseg|hx2~2     ; |sevenseg|hx2~2     ; out              ;
+; |sevenseg|hx2~3     ; |sevenseg|hx2~3     ; out              ;
+; |sevenseg|hx2~4     ; |sevenseg|hx2~4     ; out              ;
+; |sevenseg|hx2~5     ; |sevenseg|hx2~5     ; out              ;
+; |sevenseg|hx2~6     ; |sevenseg|hx2~6     ; out              ;
+; |sevenseg|hx2~7     ; |sevenseg|hx2~7     ; out              ;
+; |sevenseg|hx2~8     ; |sevenseg|hx2~8     ; out              ;
+; |sevenseg|hx2~9     ; |sevenseg|hx2~9     ; out              ;
+; |sevenseg|hx2~10    ; |sevenseg|hx2~10    ; out              ;
+; |sevenseg|hx2~11    ; |sevenseg|hx2~11    ; out              ;
+; |sevenseg|hx2~12    ; |sevenseg|hx2~12    ; out              ;
+; |sevenseg|hx2~13    ; |sevenseg|hx2~13    ; out              ;
+; |sevenseg|hx2~14    ; |sevenseg|hx2~14    ; out              ;
+; |sevenseg|hx2~15    ; |sevenseg|hx2~15    ; out              ;
+; |sevenseg|hx2~16    ; |sevenseg|hx2~16    ; out              ;
+; |sevenseg|hx2~17    ; |sevenseg|hx2~17    ; out              ;
+; |sevenseg|hx2~18    ; |sevenseg|hx2~18    ; out              ;
+; |sevenseg|hx2~19    ; |sevenseg|hx2~19    ; out              ;
+; |sevenseg|hx2~20    ; |sevenseg|hx2~20    ; out              ;
+; |sevenseg|hx2~21    ; |sevenseg|hx2~21    ; out              ;
+; |sevenseg|hx2~22    ; |sevenseg|hx2~22    ; out              ;
+; |sevenseg|hx2~23    ; |sevenseg|hx2~23    ; out              ;
+; |sevenseg|hx2~24    ; |sevenseg|hx2~24    ; out              ;
+; |sevenseg|hx2~26    ; |sevenseg|hx2~26    ; out              ;
+; |sevenseg|hx2~27    ; |sevenseg|hx2~27    ; out              ;
+; |sevenseg|hx2~28    ; |sevenseg|hx2~28    ; out              ;
+; |sevenseg|hx2~29    ; |sevenseg|hx2~29    ; out              ;
+; |sevenseg|hx2~30    ; |sevenseg|hx2~30    ; out              ;
+; |sevenseg|hx2~32    ; |sevenseg|hx2~32    ; out              ;
+; |sevenseg|hx2~33    ; |sevenseg|hx2~33    ; out              ;
+; |sevenseg|hx2~34    ; |sevenseg|hx2~34    ; out              ;
+; |sevenseg|hx2~35    ; |sevenseg|hx2~35    ; out              ;
+; |sevenseg|hx2~36    ; |sevenseg|hx2~36    ; out              ;
+; |sevenseg|hx2~38    ; |sevenseg|hx2~38    ; out              ;
+; |sevenseg|hx2~40    ; |sevenseg|hx2~40    ; out              ;
+; |sevenseg|hx2~41    ; |sevenseg|hx2~41    ; out              ;
+; |sevenseg|hx2~42    ; |sevenseg|hx2~42    ; out              ;
+; |sevenseg|hx2~43    ; |sevenseg|hx2~43    ; out              ;
+; |sevenseg|hx2~45    ; |sevenseg|hx2~45    ; out              ;
+; |sevenseg|hx2~47    ; |sevenseg|hx2~47    ; out              ;
+; |sevenseg|hx2~48    ; |sevenseg|hx2~48    ; out              ;
+; |sevenseg|hx2~49    ; |sevenseg|hx2~49    ; out              ;
+; |sevenseg|hx2~50    ; |sevenseg|hx2~50    ; out              ;
+; |sevenseg|hx2~52    ; |sevenseg|hx2~52    ; out              ;
+; |sevenseg|hx2~54    ; |sevenseg|hx2~54    ; out              ;
+; |sevenseg|hx2~55    ; |sevenseg|hx2~55    ; out              ;
+; |sevenseg|hx2~56    ; |sevenseg|hx2~56    ; out              ;
+; |sevenseg|hx2~57    ; |sevenseg|hx2~57    ; out              ;
+; |sevenseg|hx2~59    ; |sevenseg|hx2~59    ; out              ;
+; |sevenseg|hx2~61    ; |sevenseg|hx2~61    ; out              ;
+; |sevenseg|hx2~62    ; |sevenseg|hx2~62    ; out              ;
+; |sevenseg|hx2~63    ; |sevenseg|hx2~63    ; out              ;
+; |sevenseg|hx2~64    ; |sevenseg|hx2~64    ; out              ;
+; |sevenseg|hx2~66    ; |sevenseg|hx2~66    ; out              ;
+; |sevenseg|hx3~14    ; |sevenseg|hx3~14    ; out              ;
+; |sevenseg|hx3~17    ; |sevenseg|hx3~17    ; out              ;
+; |sevenseg|hx3~18    ; |sevenseg|hx3~18    ; out              ;
+; |sevenseg|hx3~19    ; |sevenseg|hx3~19    ; out              ;
+; |sevenseg|hx3~20    ; |sevenseg|hx3~20    ; out              ;
+; |sevenseg|hx3~21    ; |sevenseg|hx3~21    ; out              ;
+; |sevenseg|hx3~22    ; |sevenseg|hx3~22    ; out              ;
+; |sevenseg|hx3~23    ; |sevenseg|hx3~23    ; out              ;
+; |sevenseg|hx3~24    ; |sevenseg|hx3~24    ; out              ;
+; |sevenseg|hx3~25    ; |sevenseg|hx3~25    ; out              ;
+; |sevenseg|hx3~26    ; |sevenseg|hx3~26    ; out              ;
+; |sevenseg|hx3~27    ; |sevenseg|hx3~27    ; out              ;
+; |sevenseg|hx3~28    ; |sevenseg|hx3~28    ; out              ;
+; |sevenseg|hx3~29    ; |sevenseg|hx3~29    ; out              ;
+; |sevenseg|hx3~30    ; |sevenseg|hx3~30    ; out              ;
+; |sevenseg|hx3~31    ; |sevenseg|hx3~31    ; out              ;
+; |sevenseg|hx3~32    ; |sevenseg|hx3~32    ; out              ;
+; |sevenseg|hx3~33    ; |sevenseg|hx3~33    ; out              ;
+; |sevenseg|hx3~34    ; |sevenseg|hx3~34    ; out              ;
+; |sevenseg|hx3~35    ; |sevenseg|hx3~35    ; out              ;
+; |sevenseg|hx3~36    ; |sevenseg|hx3~36    ; out              ;
+; |sevenseg|hx3~37    ; |sevenseg|hx3~37    ; out              ;
+; |sevenseg|hx3~38    ; |sevenseg|hx3~38    ; out              ;
+; |sevenseg|hx3~39    ; |sevenseg|hx3~39    ; out              ;
+; |sevenseg|hx3~40    ; |sevenseg|hx3~40    ; out              ;
+; |sevenseg|hx3~41    ; |sevenseg|hx3~41    ; out              ;
+; |sevenseg|hx3~42    ; |sevenseg|hx3~42    ; out              ;
+; |sevenseg|hx3~43    ; |sevenseg|hx3~43    ; out              ;
+; |sevenseg|hx3~44    ; |sevenseg|hx3~44    ; out              ;
+; |sevenseg|hx3~45    ; |sevenseg|hx3~45    ; out              ;
+; |sevenseg|hx3~46    ; |sevenseg|hx3~46    ; out              ;
+; |sevenseg|hx3~47    ; |sevenseg|hx3~47    ; out              ;
+; |sevenseg|hx3~48    ; |sevenseg|hx3~48    ; out              ;
+; |sevenseg|hx3~49    ; |sevenseg|hx3~49    ; out              ;
+; |sevenseg|hx3~50    ; |sevenseg|hx3~50    ; out              ;
+; |sevenseg|hx3~51    ; |sevenseg|hx3~51    ; out              ;
+; |sevenseg|hx3~52    ; |sevenseg|hx3~52    ; out              ;
+; |sevenseg|hx3~53    ; |sevenseg|hx3~53    ; out              ;
+; |sevenseg|hx3~54    ; |sevenseg|hx3~54    ; out              ;
+; |sevenseg|hx3~55    ; |sevenseg|hx3~55    ; out              ;
+; |sevenseg|hx3~56    ; |sevenseg|hx3~56    ; out              ;
+; |sevenseg|hx3~57    ; |sevenseg|hx3~57    ; out              ;
+; |sevenseg|hx3~58    ; |sevenseg|hx3~58    ; out              ;
+; |sevenseg|hx3~59    ; |sevenseg|hx3~59    ; out              ;
+; |sevenseg|hx3~60    ; |sevenseg|hx3~60    ; out              ;
+; |sevenseg|hx3~61    ; |sevenseg|hx3~61    ; out              ;
+; |sevenseg|hx3~62    ; |sevenseg|hx3~62    ; out              ;
+; |sevenseg|hx3~63    ; |sevenseg|hx3~63    ; out              ;
+; |sevenseg|hx3~64    ; |sevenseg|hx3~64    ; out              ;
+; |sevenseg|hx3~65    ; |sevenseg|hx3~65    ; out              ;
+; |sevenseg|hx3~66    ; |sevenseg|hx3~66    ; out              ;
+; |sevenseg|A[0]      ; |sevenseg|A[0]      ; out              ;
+; |sevenseg|A[1]      ; |sevenseg|A[1]      ; out              ;
+; |sevenseg|A[2]      ; |sevenseg|A[2]      ; out              ;
+; |sevenseg|A[3]      ; |sevenseg|A[3]      ; out              ;
+; |sevenseg|B[0]      ; |sevenseg|B[0]      ; out              ;
+; |sevenseg|B[1]      ; |sevenseg|B[1]      ; out              ;
+; |sevenseg|B[2]      ; |sevenseg|B[2]      ; out              ;
+; |sevenseg|C[0]      ; |sevenseg|C[0]      ; out              ;
+; |sevenseg|C[1]      ; |sevenseg|C[1]      ; out              ;
+; |sevenseg|C[2]      ; |sevenseg|C[2]      ; out              ;
+; |sevenseg|C[3]      ; |sevenseg|C[3]      ; out              ;
+; |sevenseg|D[0]      ; |sevenseg|D[0]      ; out              ;
+; |sevenseg|D[1]      ; |sevenseg|D[1]      ; out              ;
+; |sevenseg|D[2]      ; |sevenseg|D[2]      ; out              ;
+; |sevenseg|hx0[0]    ; |sevenseg|hx0[0]    ; pin_out          ;
+; |sevenseg|hx0[1]    ; |sevenseg|hx0[1]    ; pin_out          ;
+; |sevenseg|hx0[2]    ; |sevenseg|hx0[2]    ; pin_out          ;
+; |sevenseg|hx0[3]    ; |sevenseg|hx0[3]    ; pin_out          ;
+; |sevenseg|hx0[4]    ; |sevenseg|hx0[4]    ; pin_out          ;
+; |sevenseg|hx0[5]    ; |sevenseg|hx0[5]    ; pin_out          ;
+; |sevenseg|hx0[6]    ; |sevenseg|hx0[6]    ; pin_out          ;
+; |sevenseg|hx1[0]    ; |sevenseg|hx1[0]    ; pin_out          ;
+; |sevenseg|hx1[1]    ; |sevenseg|hx1[1]    ; pin_out          ;
+; |sevenseg|hx1[2]    ; |sevenseg|hx1[2]    ; pin_out          ;
+; |sevenseg|hx1[3]    ; |sevenseg|hx1[3]    ; pin_out          ;
+; |sevenseg|hx1[4]    ; |sevenseg|hx1[4]    ; pin_out          ;
+; |sevenseg|hx1[5]    ; |sevenseg|hx1[5]    ; pin_out          ;
+; |sevenseg|hx1[6]    ; |sevenseg|hx1[6]    ; pin_out          ;
+; |sevenseg|hx2[0]    ; |sevenseg|hx2[0]    ; pin_out          ;
+; |sevenseg|hx2[2]    ; |sevenseg|hx2[2]    ; pin_out          ;
+; |sevenseg|hx2[3]    ; |sevenseg|hx2[3]    ; pin_out          ;
+; |sevenseg|hx2[4]    ; |sevenseg|hx2[4]    ; pin_out          ;
+; |sevenseg|hx2[5]    ; |sevenseg|hx2[5]    ; pin_out          ;
+; |sevenseg|hx3[0]    ; |sevenseg|hx3[0]    ; pin_out          ;
+; |sevenseg|hx3[1]    ; |sevenseg|hx3[1]    ; pin_out          ;
+; |sevenseg|hx3[2]    ; |sevenseg|hx3[2]    ; pin_out          ;
+; |sevenseg|hx3[3]    ; |sevenseg|hx3[3]    ; pin_out          ;
+; |sevenseg|hx3[4]    ; |sevenseg|hx3[4]    ; pin_out          ;
+; |sevenseg|hx3[5]    ; |sevenseg|hx3[5]    ; pin_out          ;
+; |sevenseg|hx3[6]    ; |sevenseg|hx3[6]    ; pin_out          ;
+; |sevenseg|Equal0~0  ; |sevenseg|Equal0~0  ; out0             ;
+; |sevenseg|Equal1~0  ; |sevenseg|Equal1~0  ; out0             ;
+; |sevenseg|Equal2~0  ; |sevenseg|Equal2~0  ; out0             ;
+; |sevenseg|Equal3~0  ; |sevenseg|Equal3~0  ; out0             ;
+; |sevenseg|Equal4~0  ; |sevenseg|Equal4~0  ; out0             ;
+; |sevenseg|Equal5~0  ; |sevenseg|Equal5~0  ; out0             ;
+; |sevenseg|Equal6~0  ; |sevenseg|Equal6~0  ; out0             ;
+; |sevenseg|Equal7~0  ; |sevenseg|Equal7~0  ; out0             ;
+; |sevenseg|Equal8~0  ; |sevenseg|Equal8~0  ; out0             ;
+; |sevenseg|Equal9~0  ; |sevenseg|Equal9~0  ; out0             ;
+; |sevenseg|Equal10~0 ; |sevenseg|Equal10~0 ; out0             ;
+; |sevenseg|Equal11~0 ; |sevenseg|Equal11~0 ; out0             ;
+; |sevenseg|Equal12~0 ; |sevenseg|Equal12~0 ; out0             ;
+; |sevenseg|Equal13~0 ; |sevenseg|Equal13~0 ; out0             ;
+; |sevenseg|Equal14~0 ; |sevenseg|Equal14~0 ; out0             ;
+; |sevenseg|Equal21~0 ; |sevenseg|Equal21~0 ; out0             ;
+; |sevenseg|Equal22~0 ; |sevenseg|Equal22~0 ; out0             ;
+; |sevenseg|Equal23~0 ; |sevenseg|Equal23~0 ; out0             ;
+; |sevenseg|Equal24~0 ; |sevenseg|Equal24~0 ; out0             ;
+; |sevenseg|Equal25~0 ; |sevenseg|Equal25~0 ; out0             ;
+; |sevenseg|Equal26~0 ; |sevenseg|Equal26~0 ; out0             ;
+; |sevenseg|Equal27~0 ; |sevenseg|Equal27~0 ; out0             ;
+; |sevenseg|Equal28~0 ; |sevenseg|Equal28~0 ; out0             ;
+; |sevenseg|Equal30~0 ; |sevenseg|Equal30~0 ; out0             ;
+; |sevenseg|Equal31~0 ; |sevenseg|Equal31~0 ; out0             ;
+; |sevenseg|Equal32~0 ; |sevenseg|Equal32~0 ; out0             ;
+; |sevenseg|Equal33~0 ; |sevenseg|Equal33~0 ; out0             ;
+; |sevenseg|Equal34~0 ; |sevenseg|Equal34~0 ; out0             ;
+; |sevenseg|Equal35~0 ; |sevenseg|Equal35~0 ; out0             ;
+; |sevenseg|Equal36~0 ; |sevenseg|Equal36~0 ; out0             ;
+; |sevenseg|Equal51~0 ; |sevenseg|Equal51~0 ; out0             ;
+; |sevenseg|Equal52~0 ; |sevenseg|Equal52~0 ; out0             ;
+; |sevenseg|Equal53~0 ; |sevenseg|Equal53~0 ; out0             ;
+; |sevenseg|Equal54~0 ; |sevenseg|Equal54~0 ; out0             ;
+; |sevenseg|Equal55~0 ; |sevenseg|Equal55~0 ; out0             ;
+; |sevenseg|Equal56~0 ; |sevenseg|Equal56~0 ; out0             ;
+; |sevenseg|Equal57~0 ; |sevenseg|Equal57~0 ; out0             ;
+; |sevenseg|Equal58~0 ; |sevenseg|Equal58~0 ; out0             ;
++---------------------+---------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------+
+; Missing 1-Value Coverage                                     ;
++---------------------+---------------------+------------------+
+; Node Name           ; Output Port Name    ; Output Port Type ;
++---------------------+---------------------+------------------+
+; |sevenseg|hx1~0     ; |sevenseg|hx1~0     ; out              ;
+; |sevenseg|hx1~1     ; |sevenseg|hx1~1     ; out              ;
+; |sevenseg|hx1~2     ; |sevenseg|hx1~2     ; out              ;
+; |sevenseg|hx1~3     ; |sevenseg|hx1~3     ; out              ;
+; |sevenseg|hx1~4     ; |sevenseg|hx1~4     ; out              ;
+; |sevenseg|hx1~5     ; |sevenseg|hx1~5     ; out              ;
+; |sevenseg|hx1~6     ; |sevenseg|hx1~6     ; out              ;
+; |sevenseg|hx1~7     ; |sevenseg|hx1~7     ; out              ;
+; |sevenseg|hx1~8     ; |sevenseg|hx1~8     ; out              ;
+; |sevenseg|hx1~9     ; |sevenseg|hx1~9     ; out              ;
+; |sevenseg|hx1~10    ; |sevenseg|hx1~10    ; out              ;
+; |sevenseg|hx1~11    ; |sevenseg|hx1~11    ; out              ;
+; |sevenseg|hx1~12    ; |sevenseg|hx1~12    ; out              ;
+; |sevenseg|hx1~13    ; |sevenseg|hx1~13    ; out              ;
+; |sevenseg|hx1~16    ; |sevenseg|hx1~16    ; out              ;
+; |sevenseg|hx2~25    ; |sevenseg|hx2~25    ; out              ;
+; |sevenseg|hx2~31    ; |sevenseg|hx2~31    ; out              ;
+; |sevenseg|hx2~37    ; |sevenseg|hx2~37    ; out              ;
+; |sevenseg|hx2~39    ; |sevenseg|hx2~39    ; out              ;
+; |sevenseg|hx2~44    ; |sevenseg|hx2~44    ; out              ;
+; |sevenseg|hx2~46    ; |sevenseg|hx2~46    ; out              ;
+; |sevenseg|hx2~51    ; |sevenseg|hx2~51    ; out              ;
+; |sevenseg|hx2~53    ; |sevenseg|hx2~53    ; out              ;
+; |sevenseg|hx2~58    ; |sevenseg|hx2~58    ; out              ;
+; |sevenseg|hx2~60    ; |sevenseg|hx2~60    ; out              ;
+; |sevenseg|hx2~65    ; |sevenseg|hx2~65    ; out              ;
+; |sevenseg|hx3~0     ; |sevenseg|hx3~0     ; out              ;
+; |sevenseg|hx3~1     ; |sevenseg|hx3~1     ; out              ;
+; |sevenseg|hx3~2     ; |sevenseg|hx3~2     ; out              ;
+; |sevenseg|hx3~3     ; |sevenseg|hx3~3     ; out              ;
+; |sevenseg|hx3~4     ; |sevenseg|hx3~4     ; out              ;
+; |sevenseg|hx3~5     ; |sevenseg|hx3~5     ; out              ;
+; |sevenseg|hx3~6     ; |sevenseg|hx3~6     ; out              ;
+; |sevenseg|hx3~7     ; |sevenseg|hx3~7     ; out              ;
+; |sevenseg|hx3~8     ; |sevenseg|hx3~8     ; out              ;
+; |sevenseg|hx3~9     ; |sevenseg|hx3~9     ; out              ;
+; |sevenseg|hx3~10    ; |sevenseg|hx3~10    ; out              ;
+; |sevenseg|hx3~11    ; |sevenseg|hx3~11    ; out              ;
+; |sevenseg|hx3~12    ; |sevenseg|hx3~12    ; out              ;
+; |sevenseg|hx3~13    ; |sevenseg|hx3~13    ; out              ;
+; |sevenseg|hx3~16    ; |sevenseg|hx3~16    ; out              ;
+; |sevenseg|hx2[1]    ; |sevenseg|hx2[1]    ; pin_out          ;
+; |sevenseg|hx2[6]    ; |sevenseg|hx2[6]    ; pin_out          ;
+; |sevenseg|Equal15~0 ; |sevenseg|Equal15~0 ; out0             ;
+; |sevenseg|Equal16~0 ; |sevenseg|Equal16~0 ; out0             ;
+; |sevenseg|Equal17~0 ; |sevenseg|Equal17~0 ; out0             ;
+; |sevenseg|Equal18~0 ; |sevenseg|Equal18~0 ; out0             ;
+; |sevenseg|Equal19~0 ; |sevenseg|Equal19~0 ; out0             ;
+; |sevenseg|Equal29~0 ; |sevenseg|Equal29~0 ; out0             ;
+; |sevenseg|Equal37~0 ; |sevenseg|Equal37~0 ; out0             ;
+; |sevenseg|Equal38~0 ; |sevenseg|Equal38~0 ; out0             ;
+; |sevenseg|Equal39~0 ; |sevenseg|Equal39~0 ; out0             ;
+; |sevenseg|Equal40~0 ; |sevenseg|Equal40~0 ; out0             ;
+; |sevenseg|Equal41~0 ; |sevenseg|Equal41~0 ; out0             ;
+; |sevenseg|Equal42~0 ; |sevenseg|Equal42~0 ; out0             ;
+; |sevenseg|Equal43~0 ; |sevenseg|Equal43~0 ; out0             ;
+; |sevenseg|Equal45~0 ; |sevenseg|Equal45~0 ; out0             ;
+; |sevenseg|Equal46~0 ; |sevenseg|Equal46~0 ; out0             ;
+; |sevenseg|Equal47~0 ; |sevenseg|Equal47~0 ; out0             ;
+; |sevenseg|Equal48~0 ; |sevenseg|Equal48~0 ; out0             ;
+; |sevenseg|Equal49~0 ; |sevenseg|Equal49~0 ; out0             ;
+; |sevenseg|Equal59~0 ; |sevenseg|Equal59~0 ; out0             ;
++---------------------+---------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------+
+; Missing 0-Value Coverage                                     ;
++---------------------+---------------------+------------------+
+; Node Name           ; Output Port Name    ; Output Port Type ;
++---------------------+---------------------+------------------+
+; |sevenseg|hx1~0     ; |sevenseg|hx1~0     ; out              ;
+; |sevenseg|hx1~1     ; |sevenseg|hx1~1     ; out              ;
+; |sevenseg|hx1~2     ; |sevenseg|hx1~2     ; out              ;
+; |sevenseg|hx1~3     ; |sevenseg|hx1~3     ; out              ;
+; |sevenseg|hx1~4     ; |sevenseg|hx1~4     ; out              ;
+; |sevenseg|hx1~5     ; |sevenseg|hx1~5     ; out              ;
+; |sevenseg|hx1~6     ; |sevenseg|hx1~6     ; out              ;
+; |sevenseg|hx1~7     ; |sevenseg|hx1~7     ; out              ;
+; |sevenseg|hx1~8     ; |sevenseg|hx1~8     ; out              ;
+; |sevenseg|hx1~9     ; |sevenseg|hx1~9     ; out              ;
+; |sevenseg|hx1~11    ; |sevenseg|hx1~11    ; out              ;
+; |sevenseg|hx1~12    ; |sevenseg|hx1~12    ; out              ;
+; |sevenseg|hx1~15    ; |sevenseg|hx1~15    ; out              ;
+; |sevenseg|hx1~16    ; |sevenseg|hx1~16    ; out              ;
+; |sevenseg|hx2~39    ; |sevenseg|hx2~39    ; out              ;
+; |sevenseg|hx2~46    ; |sevenseg|hx2~46    ; out              ;
+; |sevenseg|hx2~53    ; |sevenseg|hx2~53    ; out              ;
+; |sevenseg|hx2~60    ; |sevenseg|hx2~60    ; out              ;
+; |sevenseg|hx3~0     ; |sevenseg|hx3~0     ; out              ;
+; |sevenseg|hx3~1     ; |sevenseg|hx3~1     ; out              ;
+; |sevenseg|hx3~2     ; |sevenseg|hx3~2     ; out              ;
+; |sevenseg|hx3~3     ; |sevenseg|hx3~3     ; out              ;
+; |sevenseg|hx3~4     ; |sevenseg|hx3~4     ; out              ;
+; |sevenseg|hx3~5     ; |sevenseg|hx3~5     ; out              ;
+; |sevenseg|hx3~6     ; |sevenseg|hx3~6     ; out              ;
+; |sevenseg|hx3~7     ; |sevenseg|hx3~7     ; out              ;
+; |sevenseg|hx3~8     ; |sevenseg|hx3~8     ; out              ;
+; |sevenseg|hx3~9     ; |sevenseg|hx3~9     ; out              ;
+; |sevenseg|hx3~11    ; |sevenseg|hx3~11    ; out              ;
+; |sevenseg|hx3~12    ; |sevenseg|hx3~12    ; out              ;
+; |sevenseg|hx3~15    ; |sevenseg|hx3~15    ; out              ;
+; |sevenseg|hx3~16    ; |sevenseg|hx3~16    ; out              ;
+; |sevenseg|B[3]      ; |sevenseg|B[3]      ; out              ;
+; |sevenseg|D[3]      ; |sevenseg|D[3]      ; out              ;
+; |sevenseg|hx2[6]    ; |sevenseg|hx2[6]    ; pin_out          ;
+; |sevenseg|Equal15~0 ; |sevenseg|Equal15~0 ; out0             ;
+; |sevenseg|Equal16~0 ; |sevenseg|Equal16~0 ; out0             ;
+; |sevenseg|Equal17~0 ; |sevenseg|Equal17~0 ; out0             ;
+; |sevenseg|Equal18~0 ; |sevenseg|Equal18~0 ; out0             ;
+; |sevenseg|Equal19~0 ; |sevenseg|Equal19~0 ; out0             ;
+; |sevenseg|Equal20~0 ; |sevenseg|Equal20~0 ; out0             ;
+; |sevenseg|Equal38~0 ; |sevenseg|Equal38~0 ; out0             ;
+; |sevenseg|Equal39~0 ; |sevenseg|Equal39~0 ; out0             ;
+; |sevenseg|Equal40~0 ; |sevenseg|Equal40~0 ; out0             ;
+; |sevenseg|Equal41~0 ; |sevenseg|Equal41~0 ; out0             ;
+; |sevenseg|Equal42~0 ; |sevenseg|Equal42~0 ; out0             ;
+; |sevenseg|Equal43~0 ; |sevenseg|Equal43~0 ; out0             ;
+; |sevenseg|Equal44~0 ; |sevenseg|Equal44~0 ; out0             ;
+; |sevenseg|Equal45~0 ; |sevenseg|Equal45~0 ; out0             ;
+; |sevenseg|Equal46~0 ; |sevenseg|Equal46~0 ; out0             ;
+; |sevenseg|Equal47~0 ; |sevenseg|Equal47~0 ; out0             ;
+; |sevenseg|Equal48~0 ; |sevenseg|Equal48~0 ; out0             ;
+; |sevenseg|Equal49~0 ; |sevenseg|Equal49~0 ; out0             ;
+; |sevenseg|Equal50~0 ; |sevenseg|Equal50~0 ; out0             ;
++---------------------+---------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Feb 20 14:39:13 2019
+Info: Command: quartus_sim --simulation_results_format=VWF sevenseg -c sevenseg
+Info (324025): Using vector source file "C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART1/simulation/qsim/sevenseg1.sim.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      81.45 %
+Info (328052): Number of transitions in simulation is 4827
+Info (324045): Vector file sevenseg.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4459 megabytes
+    Info: Processing ended: Wed Feb 20 14:39:14 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
