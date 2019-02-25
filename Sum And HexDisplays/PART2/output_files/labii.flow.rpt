@@ -1,5 +1,5 @@
 Flow report for labii
-Wed Feb 20 15:52:05 2019
+Fri Feb 22 20:17:08 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Feb 20 15:52:01 2019           ;
+; Flow Status                        ; Successful - Fri Feb 22 20:17:03 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; labii                                           ;
 ; Top-level Entity Name              ; labii                                           ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/20/2019 15:51:26 ;
+; Start date & time ; 02/22/2019 20:16:21 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; labii               ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 260535863239696.155067428609544 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 260535863239696.155086298023224 ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top        ;
@@ -90,11 +90,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:08     ; 1.0                     ; 4664 MB             ; 00:00:07                           ;
-; Fitter                    ; 00:00:18     ; 1.0                     ; 4971 MB             ; 00:00:17                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 4578 MB             ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4561 MB             ; 00:00:02                           ;
-; Total                     ; 00:00:34     ; --                      ; --                  ; 00:00:32                           ;
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 4665 MB             ; 00:00:08                           ;
+; Fitter                    ; 00:00:20     ; 1.0                     ; 4970 MB             ; 00:00:18                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 4578 MB             ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4568 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:42     ; --                      ; --                  ; 00:00:35                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

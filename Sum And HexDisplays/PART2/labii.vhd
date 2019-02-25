@@ -36,15 +36,15 @@ entity labii is
 		-- Output ports
 		--Cout	: out  NATURAL RANGE 0 TO 511
 		
-		hx0	: out  STD_LOGIC_VECTOR(6 downto 0);
-		hx1	: out  STD_LOGIC_VECTOR(6 downto 0);
+		hx0	: out  STD_LOGIC_VECTOR(0 to 6);
+		hx1	: out  STD_LOGIC_VECTOR(0 to 6);
 		
-		hx2	: out  STD_LOGIC_VECTOR(6 downto 0);
-		hx3	: out  STD_LOGIC_VECTOR(6 downto 0);
+		hx2	: out  STD_LOGIC_VECTOR(0 to 6);
+		hx3	: out  STD_LOGIC_VECTOR(0 to 6);
 		
-		hx7	: out  STD_LOGIC_VECTOR(6 downto 0);
-		hx5	: out  STD_LOGIC_VECTOR(6 downto 0);
-		hx6	: out  STD_LOGIC_VECTOR(6 downto 0)
+		hx7	: out  STD_LOGIC_VECTOR(0 to 6);
+		hx5	: out  STD_LOGIC_VECTOR(0 to 6);
+		hx6	: out  STD_LOGIC_VECTOR(0 to 6)
 
 	);
 end labii;
@@ -146,7 +146,7 @@ begin
 --end display
 
 
-SM <= in1 + in2;9
+SM <= in1 + in2;
 E <= SM/100;
 F <= (SM MOD 100)/10;
 G <= SM MOD 10;

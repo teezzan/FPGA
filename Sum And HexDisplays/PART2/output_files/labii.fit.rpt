@@ -1,5 +1,5 @@
 Fitter report for labii
-Wed Feb 20 15:51:53 2019
+Fri Feb 22 20:16:53 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -59,7 +59,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Wed Feb 20 15:51:53 2019           ;
+; Fitter Status                      ; Successful - Fri Feb 22 20:16:53 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; labii                                           ;
 ; Top-level Entity Name              ; labii                                           ;
@@ -177,7 +177,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/output_files/labii.pin.
+The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/Sum And HexDisplays/PART2/output_files/labii.pin.
 
 
 +----------------------------------------------------------------------+
@@ -325,55 +325,55 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 +--------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name   ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +--------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; hx0[0] ; A12   ; 3        ; 35           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx0[1] ; A11   ; 3        ; 29           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx0[2] ; B12   ; 3        ; 35           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx0[0] ; B11   ; 3        ; 29           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx0[1] ; H13   ; 3        ; 29           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx0[2] ; G13   ; 3        ; 31           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx0[3] ; G14   ; 3        ; 35           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx0[4] ; G13   ; 3        ; 31           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx0[5] ; H13   ; 3        ; 29           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx0[6] ; B11   ; 3        ; 29           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx1[0] ; E12   ; 3        ; 26           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx1[1] ; C18   ; 4        ; 58           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx1[2] ; A9    ; 3        ; 24           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx0[4] ; B12   ; 3        ; 35           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx0[5] ; A11   ; 3        ; 29           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx0[6] ; A12   ; 3        ; 35           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx1[0] ; F11   ; 3        ; 24           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx1[1] ; B19   ; 4        ; 58           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx1[2] ; D18   ; 4        ; 60           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx1[3] ; B10   ; 3        ; 26           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx1[4] ; D18   ; 4        ; 60           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx1[5] ; B19   ; 4        ; 58           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx1[6] ; F11   ; 3        ; 24           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx2[0] ; C13   ; 3        ; 40           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx2[1] ; H14   ; 3        ; 38           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx2[2] ; B16   ; 4        ; 49           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx1[4] ; A9    ; 3        ; 24           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx1[5] ; C18   ; 4        ; 58           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx1[6] ; E12   ; 3        ; 26           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx2[0] ; C14   ; 3        ; 38           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx2[1] ; B13   ; 3        ; 38           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx2[2] ; C12   ; 3        ; 31           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx2[3] ; E15   ; 3        ; 44           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx2[4] ; C12   ; 3        ; 31           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx2[5] ; B13   ; 3        ; 38           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx2[6] ; C14   ; 3        ; 38           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx3[0] ; F12   ; 3        ; 26           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx3[1] ; B18   ; 4        ; 58           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx3[2] ; B9    ; 3        ; 24           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx2[4] ; B16   ; 4        ; 49           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx2[5] ; H14   ; 3        ; 38           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx2[6] ; C13   ; 3        ; 40           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx3[0] ; E11   ; 3        ; 24           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx3[1] ; A19   ; 4        ; 58           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx3[2] ; G18   ; 4        ; 60           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx3[3] ; A10   ; 3        ; 26           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx3[4] ; G18   ; 4        ; 60           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx3[5] ; A19   ; 4        ; 58           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx3[6] ; E11   ; 3        ; 24           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx5[0] ; H17   ; 4        ; 53           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx5[1] ; D17   ; 4        ; 53           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx5[2] ; G17   ; 4        ; 53           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx3[4] ; B9    ; 3        ; 24           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx3[5] ; B18   ; 4        ; 58           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx3[6] ; F12   ; 3        ; 26           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx5[0] ; C17   ; 4        ; 51           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx5[1] ; E17   ; 4        ; 56           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx5[2] ; A17   ; 4        ; 56           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx5[3] ; B17   ; 4        ; 56           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx5[4] ; A17   ; 4        ; 56           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx5[5] ; E17   ; 4        ; 56           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx5[6] ; C17   ; 4        ; 51           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx6[0] ; F18   ; 4        ; 60           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx6[1] ; A20   ; 4        ; 62           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx6[2] ; C19   ; 4        ; 65           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx5[4] ; G17   ; 4        ; 53           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx5[5] ; D17   ; 4        ; 53           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx5[6] ; H17   ; 4        ; 53           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx6[0] ; J18   ; 4        ; 65           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx6[1] ; D19   ; 4        ; 65           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx6[2] ; H18   ; 4        ; 65           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx6[3] ; B20   ; 4        ; 62           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx6[4] ; H18   ; 4        ; 65           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx6[5] ; D19   ; 4        ; 65           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx6[6] ; J18   ; 4        ; 65           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx7[0] ; H16   ; 4        ; 49           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx7[1] ; G16   ; 4        ; 51           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx7[2] ; C16   ; 4        ; 49           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx6[4] ; C19   ; 4        ; 65           ; 51           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx6[5] ; A20   ; 4        ; 62           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx6[6] ; F18   ; 4        ; 60           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx7[0] ; AE20  ; 7        ; 78           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx7[1] ; M21   ; 5        ; 95           ; 37           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx7[2] ; F16   ; 4        ; 51           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; hx7[3] ; AG10  ; 8        ; 26           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx7[4] ; F16   ; 4        ; 51           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx7[5] ; M21   ; 5        ; 95           ; 37           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; hx7[6] ; AE20  ; 7        ; 78           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx7[4] ; C16   ; 4        ; 49           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx7[5] ; G16   ; 4        ; 51           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; hx7[6] ; H16   ; 4        ; 49           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +--------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
@@ -405,18 +405,18 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; A6       ; 615        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A7       ; 612        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A8       ; 606        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; A9       ; 594        ; 3        ; hx1[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A9       ; 594        ; 3        ; hx1[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A10      ; 592        ; 3        ; hx3[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A11      ; 586        ; 3        ; hx0[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A12      ; 578        ; 3        ; hx0[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A11      ; 586        ; 3        ; hx0[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A12      ; 578        ; 3        ; hx0[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A13      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; A14      ; 569        ; 3        ; in2[5]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A15      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A16      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; A17      ; 549        ; 4        ; hx5[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A17      ; 549        ; 4        ; hx5[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A18      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; A19      ; 545        ; 4        ; hx3[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A20      ; 540        ; 4        ; hx6[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A19      ; 545        ; 4        ; hx3[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A20      ; 540        ; 4        ; hx6[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A21      ; 532        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A22      ; 528        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A23      ; 518        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -565,7 +565,7 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; AE17     ; 255        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE18     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AE19     ; 284        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AE20     ; 290        ; 7        ; hx7[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AE20     ; 290        ; 7        ; hx7[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AE21     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AE22     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AE23     ; 316        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -732,17 +732,17 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; B6       ; 614        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B7       ; 611        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B8       ; 605        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B9       ; 593        ; 3        ; hx3[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B9       ; 593        ; 3        ; hx3[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B10      ; 591        ; 3        ; hx1[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B11      ; 585        ; 3        ; hx0[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B12      ; 577        ; 3        ; hx0[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B13      ; 573        ; 3        ; hx2[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B11      ; 585        ; 3        ; hx0[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B12      ; 577        ; 3        ; hx0[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B13      ; 573        ; 3        ; hx2[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B14      ; 568        ; 3        ; in2[1]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B15      ; 565        ; 3        ; in2[4]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B16      ; 559        ; 4        ; hx2[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B16      ; 559        ; 4        ; hx2[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B17      ; 548        ; 4        ; hx5[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B18      ; 547        ; 4        ; hx3[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B19      ; 544        ; 4        ; hx1[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B18      ; 547        ; 4        ; hx3[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B19      ; 544        ; 4        ; hx1[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B20      ; 539        ; 4        ; hx6[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B21      ; 531        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B22      ; 527        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -765,14 +765,14 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; C9       ; 603        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C10      ; 600        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C11      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; C12      ; 584        ; 3        ; hx2[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C13      ; 572        ; 3        ; hx2[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C14      ; 575        ; 3        ; hx2[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C12      ; 584        ; 3        ; hx2[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C13      ; 572        ; 3        ; hx2[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C14      ; 575        ; 3        ; hx2[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; C15      ; 564        ; 3        ; in2[0]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C16      ; 558        ; 4        ; hx7[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C17      ; 554        ; 4        ; hx5[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C18      ; 546        ; 4        ; hx1[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C19      ; 538        ; 4        ; hx6[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C16      ; 558        ; 4        ; hx7[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C17      ; 554        ; 4        ; hx5[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C18      ; 546        ; 4        ; hx1[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C19      ; 538        ; 4        ; hx6[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; C20      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C21      ; 522        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; C22      ; 520        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -800,9 +800,9 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; D14      ; 571        ; 3        ; in2[6]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D15      ; 567        ; 3        ; in2[3]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D16      ; 561        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; D17      ; 553        ; 4        ; hx5[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; D18      ; 541        ; 4        ; hx1[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; D19      ; 537        ; 4        ; hx6[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; D17      ; 553        ; 4        ; hx5[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; D18      ; 541        ; 4        ; hx1[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; D19      ; 537        ; 4        ; hx6[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D20      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; D21      ; 526        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D22      ; 519        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -824,13 +824,13 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; E8       ; 628        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E9       ; 609        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E10      ; 607        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; E11      ; 596        ; 3        ; hx3[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; E12      ; 589        ; 3        ; hx1[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; E11      ; 596        ; 3        ; hx3[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; E12      ; 589        ; 3        ; hx1[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E13      ; 579        ; 3        ; in1[6]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E14      ; 570        ; 3        ; in2[2]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E15      ; 566        ; 3        ; hx2[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E16      ; 560        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; E17      ; 550        ; 4        ; hx5[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; E17      ; 550        ; 4        ; hx5[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E18      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; E19      ; 534        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E20      ; 530        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -854,14 +854,14 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; F8       ; 629        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F10      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; F11      ; 595        ; 3        ; hx1[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; F12      ; 590        ; 3        ; hx3[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F11      ; 595        ; 3        ; hx1[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F12      ; 590        ; 3        ; hx3[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F13      ; 580        ; 3        ; in1[3]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F14      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F15      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; F16      ; 556        ; 4        ; hx7[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F16      ; 556        ; 4        ; hx7[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F17      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; F18      ; 543        ; 4        ; hx6[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F18      ; 543        ; 4        ; hx6[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F19      ; 533        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F20      ; 529        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F21      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -886,12 +886,12 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; G10      ; 623        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G11      ; 610        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G12      ; 597        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; G13      ; 582        ; 3        ; hx0[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G13      ; 582        ; 3        ; hx0[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; G14      ; 576        ; 3        ; hx0[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; G15      ; 562        ; 3        ; in1[4]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; G16      ; 555        ; 4        ; hx7[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; G17      ; 551        ; 4        ; hx5[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; G18      ; 542        ; 4        ; hx3[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G16      ; 555        ; 4        ; hx7[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G17      ; 551        ; 4        ; hx5[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G18      ; 542        ; 4        ; hx3[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; G19      ; 521        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G20      ; 511        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G21      ; 500        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -916,12 +916,12 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; H10      ; 622        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H11      ; 602        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H12      ; 598        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; H13      ; 587        ; 3        ; hx0[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; H14      ; 574        ; 3        ; hx2[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; H13      ; 587        ; 3        ; hx0[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; H14      ; 574        ; 3        ; hx2[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; H15      ; 563        ; 3        ; in1[5]                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; H16      ; 557        ; 4        ; hx7[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; H17      ; 552        ; 4        ; hx5[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; H18      ; 535        ; 4        ; hx6[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; H16      ; 557        ; 4        ; hx7[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; H17      ; 552        ; 4        ; hx5[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; H18      ; 535        ; 4        ; hx6[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; H19      ; 524        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H20      ; 512        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H21      ; 501        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -951,7 +951,7 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; J15      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; J16      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; J17      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; J18      ; 536        ; 4        ; hx6[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; J18      ; 536        ; 4        ; hx6[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; J19      ; 523        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; J20      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; J21      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1044,7 +1044,7 @@ The pin-out file can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/ou
 ; M18      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; M19      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; M20      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; M21      ; 441        ; 5        ; hx7[5]                                   ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; M21      ; 441        ; 5        ; hx7[1]                                   ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M22      ; 442        ; 5        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M23      ; 443        ; 5        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M24      ; 448        ; 5        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1378,55 +1378,55 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+----------+---------------+---------------+-----------------------+-----+
 ; Name   ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
 +--------+----------+---------------+---------------+-----------------------+-----+
-; hx0[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx0[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx0[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx0[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx0[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx0[5] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx0[6] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx1[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx1[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx1[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx1[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx1[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx1[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx0[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx0[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx0[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx0[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx0[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx0[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx1[6] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx2[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx2[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx2[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx2[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx2[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx2[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx1[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx1[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx1[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx1[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx1[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx1[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx2[6] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx3[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx3[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx3[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx3[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx3[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx3[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx2[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx2[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx2[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx2[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx2[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx2[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx3[6] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx7[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx7[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx7[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx7[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx7[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx7[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx3[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx3[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx3[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx3[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx3[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx3[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx7[6] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx5[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx5[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx5[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx5[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx5[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx5[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx7[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx7[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx7[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx7[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx7[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx7[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx5[6] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx6[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx6[1] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx6[2] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx6[3] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx6[4] ; Output   ; --            ; --            ; --                    ; --  ;
-; hx6[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx5[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx5[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx5[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx5[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx5[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx5[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; hx6[6] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx6[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx6[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx6[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx6[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx6[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; hx6[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; in1[4] ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
 ; in1[5] ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
 ; in1[6] ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
@@ -2315,55 +2315,55 @@ Info (169124): Fitter converted 3 user pins into dedicated programming pins
     Info (169125): Pin ~nCSO~ is reserved at location K9
     Info (169125): Pin ~LVDS195p/nCEO~ is reserved at location AD25
 Critical Warning (169085): No exact pin location assignment(s) for 63 pins of 63 total pins
-    Info (169086): Pin hx0[0] not assigned to an exact location on the device
-    Info (169086): Pin hx0[1] not assigned to an exact location on the device
-    Info (169086): Pin hx0[2] not assigned to an exact location on the device
-    Info (169086): Pin hx0[3] not assigned to an exact location on the device
-    Info (169086): Pin hx0[4] not assigned to an exact location on the device
-    Info (169086): Pin hx0[5] not assigned to an exact location on the device
     Info (169086): Pin hx0[6] not assigned to an exact location on the device
-    Info (169086): Pin hx1[0] not assigned to an exact location on the device
-    Info (169086): Pin hx1[1] not assigned to an exact location on the device
-    Info (169086): Pin hx1[2] not assigned to an exact location on the device
-    Info (169086): Pin hx1[3] not assigned to an exact location on the device
-    Info (169086): Pin hx1[4] not assigned to an exact location on the device
-    Info (169086): Pin hx1[5] not assigned to an exact location on the device
+    Info (169086): Pin hx0[5] not assigned to an exact location on the device
+    Info (169086): Pin hx0[4] not assigned to an exact location on the device
+    Info (169086): Pin hx0[3] not assigned to an exact location on the device
+    Info (169086): Pin hx0[2] not assigned to an exact location on the device
+    Info (169086): Pin hx0[1] not assigned to an exact location on the device
+    Info (169086): Pin hx0[0] not assigned to an exact location on the device
     Info (169086): Pin hx1[6] not assigned to an exact location on the device
-    Info (169086): Pin hx2[0] not assigned to an exact location on the device
-    Info (169086): Pin hx2[1] not assigned to an exact location on the device
-    Info (169086): Pin hx2[2] not assigned to an exact location on the device
-    Info (169086): Pin hx2[3] not assigned to an exact location on the device
-    Info (169086): Pin hx2[4] not assigned to an exact location on the device
-    Info (169086): Pin hx2[5] not assigned to an exact location on the device
+    Info (169086): Pin hx1[5] not assigned to an exact location on the device
+    Info (169086): Pin hx1[4] not assigned to an exact location on the device
+    Info (169086): Pin hx1[3] not assigned to an exact location on the device
+    Info (169086): Pin hx1[2] not assigned to an exact location on the device
+    Info (169086): Pin hx1[1] not assigned to an exact location on the device
+    Info (169086): Pin hx1[0] not assigned to an exact location on the device
     Info (169086): Pin hx2[6] not assigned to an exact location on the device
-    Info (169086): Pin hx3[0] not assigned to an exact location on the device
-    Info (169086): Pin hx3[1] not assigned to an exact location on the device
-    Info (169086): Pin hx3[2] not assigned to an exact location on the device
-    Info (169086): Pin hx3[3] not assigned to an exact location on the device
-    Info (169086): Pin hx3[4] not assigned to an exact location on the device
-    Info (169086): Pin hx3[5] not assigned to an exact location on the device
+    Info (169086): Pin hx2[5] not assigned to an exact location on the device
+    Info (169086): Pin hx2[4] not assigned to an exact location on the device
+    Info (169086): Pin hx2[3] not assigned to an exact location on the device
+    Info (169086): Pin hx2[2] not assigned to an exact location on the device
+    Info (169086): Pin hx2[1] not assigned to an exact location on the device
+    Info (169086): Pin hx2[0] not assigned to an exact location on the device
     Info (169086): Pin hx3[6] not assigned to an exact location on the device
-    Info (169086): Pin hx7[0] not assigned to an exact location on the device
-    Info (169086): Pin hx7[1] not assigned to an exact location on the device
-    Info (169086): Pin hx7[2] not assigned to an exact location on the device
-    Info (169086): Pin hx7[3] not assigned to an exact location on the device
-    Info (169086): Pin hx7[4] not assigned to an exact location on the device
-    Info (169086): Pin hx7[5] not assigned to an exact location on the device
+    Info (169086): Pin hx3[5] not assigned to an exact location on the device
+    Info (169086): Pin hx3[4] not assigned to an exact location on the device
+    Info (169086): Pin hx3[3] not assigned to an exact location on the device
+    Info (169086): Pin hx3[2] not assigned to an exact location on the device
+    Info (169086): Pin hx3[1] not assigned to an exact location on the device
+    Info (169086): Pin hx3[0] not assigned to an exact location on the device
     Info (169086): Pin hx7[6] not assigned to an exact location on the device
-    Info (169086): Pin hx5[0] not assigned to an exact location on the device
-    Info (169086): Pin hx5[1] not assigned to an exact location on the device
-    Info (169086): Pin hx5[2] not assigned to an exact location on the device
-    Info (169086): Pin hx5[3] not assigned to an exact location on the device
-    Info (169086): Pin hx5[4] not assigned to an exact location on the device
-    Info (169086): Pin hx5[5] not assigned to an exact location on the device
+    Info (169086): Pin hx7[5] not assigned to an exact location on the device
+    Info (169086): Pin hx7[4] not assigned to an exact location on the device
+    Info (169086): Pin hx7[3] not assigned to an exact location on the device
+    Info (169086): Pin hx7[2] not assigned to an exact location on the device
+    Info (169086): Pin hx7[1] not assigned to an exact location on the device
+    Info (169086): Pin hx7[0] not assigned to an exact location on the device
     Info (169086): Pin hx5[6] not assigned to an exact location on the device
-    Info (169086): Pin hx6[0] not assigned to an exact location on the device
-    Info (169086): Pin hx6[1] not assigned to an exact location on the device
-    Info (169086): Pin hx6[2] not assigned to an exact location on the device
-    Info (169086): Pin hx6[3] not assigned to an exact location on the device
-    Info (169086): Pin hx6[4] not assigned to an exact location on the device
-    Info (169086): Pin hx6[5] not assigned to an exact location on the device
+    Info (169086): Pin hx5[5] not assigned to an exact location on the device
+    Info (169086): Pin hx5[4] not assigned to an exact location on the device
+    Info (169086): Pin hx5[3] not assigned to an exact location on the device
+    Info (169086): Pin hx5[2] not assigned to an exact location on the device
+    Info (169086): Pin hx5[1] not assigned to an exact location on the device
+    Info (169086): Pin hx5[0] not assigned to an exact location on the device
     Info (169086): Pin hx6[6] not assigned to an exact location on the device
+    Info (169086): Pin hx6[5] not assigned to an exact location on the device
+    Info (169086): Pin hx6[4] not assigned to an exact location on the device
+    Info (169086): Pin hx6[3] not assigned to an exact location on the device
+    Info (169086): Pin hx6[2] not assigned to an exact location on the device
+    Info (169086): Pin hx6[1] not assigned to an exact location on the device
+    Info (169086): Pin hx6[0] not assigned to an exact location on the device
     Info (169086): Pin in1[4] not assigned to an exact location on the device
     Info (169086): Pin in1[5] not assigned to an exact location on the device
     Info (169086): Pin in1[6] not assigned to an exact location on the device
@@ -2412,73 +2412,73 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.36 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.41 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 49 output pins without output pin load capacitance assignment
-    Info (306007): Pin "hx0[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx0[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx0[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx0[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx0[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx0[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx0[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx1[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx1[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx1[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx1[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx1[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx1[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx0[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx0[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx0[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx0[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx0[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx0[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx1[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx2[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx2[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx2[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx2[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx2[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx2[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx1[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx1[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx1[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx1[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx1[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx1[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx2[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx3[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx3[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx3[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx3[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx3[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx3[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx2[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx2[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx2[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx2[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx2[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx2[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx3[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx7[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx7[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx7[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx7[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx7[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx7[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx3[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx3[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx3[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx3[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx3[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx3[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx7[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx5[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx5[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx5[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx5[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx5[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx5[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx7[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx7[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx7[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx7[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx7[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx7[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx5[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx6[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx6[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx6[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx6[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx6[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "hx6[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx5[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx5[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx5[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx5[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx5[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx5[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "hx6[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx6[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx6[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx6[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx6[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx6[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "hx6[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
 Info (306005): Delay annotation completed successfully
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/output_files/labii.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (144001): Generated suppressed messages file C:/Users/TEEE/Documents/FPGA/Sum And HexDisplays/PART2/output_files/labii.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4971 megabytes
-    Info: Processing ended: Wed Feb 20 15:51:53 2019
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 4970 megabytes
+    Info: Processing ended: Fri Feb 22 20:16:54 2019
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/TEEE/Documents/FPGA/VHDL LAB2/PART2/output_files/labii.fit.smsg.
+The suppressed messages can be found in C:/Users/TEEE/Documents/FPGA/Sum And HexDisplays/PART2/output_files/labii.fit.smsg.
 
 
