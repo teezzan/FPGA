@@ -6,7 +6,7 @@ entity labii is
 	generic
 	(
 		CONSTANT zero: STD_LOGIC_VECTOR(0 TO 6) :=	"0000001";
-		CONSTANT one: STD_LOGIC_VECTOR(0 TO 6) :=	"0000110";
+		CONSTANT one: STD_LOGIC_VECTOR(0 TO 6) :=	"1001111";
 		CONSTANT two: STD_LOGIC_VECTOR(0 TO 6) :=	"0010010";
 		CONSTANT three: STD_LOGIC_VECTOR(0 TO 6) :=	"0000110";
 		CONSTANT four: STD_LOGIC_VECTOR(0 TO 6) :=	"1001100";
@@ -36,15 +36,15 @@ entity labii is
 		-- Output ports
 		--Cout	: out  NATURAL RANGE 0 TO 511
 		
-		hx0	: out  STD_LOGIC_VECTOR(0 to 6);
-		hx1	: out  STD_LOGIC_VECTOR(0 to 6);
+		hx0	: out  STD_LOGIC_VECTOR(6 downto 0);
+		hx1	: out  STD_LOGIC_VECTOR(6 downto 0);
 		
-		hx2	: out  STD_LOGIC_VECTOR(0 to 6);
-		hx3	: out  STD_LOGIC_VECTOR(0 to 6);
+		hx2	: out  STD_LOGIC_VECTOR(6 downto 0);
+		hx3	: out  STD_LOGIC_VECTOR(6 downto 0);
 		
-		hx7	: out  STD_LOGIC_VECTOR(0 to 6);
-		hx5	: out  STD_LOGIC_VECTOR(0 to 6);
-		hx6	: out  STD_LOGIC_VECTOR(0 to 6)
+		hx7	: out  STD_LOGIC_VECTOR(6 downto 0);
+		hx5	: out  STD_LOGIC_VECTOR(6 downto 0);
+		hx6	: out  STD_LOGIC_VECTOR(6 downto 0)
 
 	);
 end labii;
@@ -73,11 +73,11 @@ begin
    A <= in1/10;
 	B <= in1 MOD 10;
    C <= in2/10;
-	D <= in1 MOD 10;
+	D <= in2 MOD 10;
 
 
 
-	hx0 <= zero WHEN A=0 ELSE
+	hx7 <= zero WHEN A=0 ELSE
 				one WHEN A=1 ELSE
 				two WHEN A=2 ELSE
 				three WHEN A=3 ELSE
@@ -93,7 +93,7 @@ begin
 				dd WHEN A=13 ELSE
 				ee WHEN A=14 ELSE
 				ff;
-	hx1 <=   zero WHEN B=0 ELSE
+	hx6 <=   zero WHEN B=0 ELSE
 				one WHEN B=1 ELSE
 				two WHEN B=2 ELSE
 				three WHEN B=3 ELSE
@@ -110,7 +110,7 @@ begin
 				ee WHEN B=14 ELSE
 				ff;
 				
-	hx2 <=   zero WHEN C=0 ELSE
+	hx5 <=   zero WHEN C=0 ELSE
 				one WHEN C=1 ELSE
 				two WHEN C=2 ELSE
 				three WHEN C=3 ELSE
@@ -151,7 +151,7 @@ E <= SM/100;
 F <= (SM MOD 100)/10;
 G <= SM MOD 10;
 --------------------------------------------------------
-hx7 <=      zero WHEN E=0 ELSE
+hx2 <=      zero WHEN E=0 ELSE
 				one WHEN E=1 ELSE
 				two WHEN E=2 ELSE
 				three WHEN E=3 ELSE
@@ -168,7 +168,7 @@ hx7 <=      zero WHEN E=0 ELSE
 				ee WHEN E=14 ELSE
 				ff;
 
-hx5 <= zero WHEN F=0 ELSE
+hx1 <= zero WHEN F=0 ELSE
 				one WHEN F=1 ELSE
 				two WHEN F=2 ELSE
 				three WHEN F=3 ELSE
@@ -185,7 +185,7 @@ hx5 <= zero WHEN F=0 ELSE
 				ee WHEN F=14 ELSE
 				ff;
 				
-	hx6 <=   zero WHEN G=0 ELSE
+	hx0 <=   zero WHEN G=0 ELSE
 				one WHEN G=1 ELSE
 				two WHEN G=2 ELSE
 				three WHEN G=3 ELSE
@@ -203,4 +203,5 @@ hx5 <= zero WHEN F=0 ELSE
 				ff;				
 				
 end change;
+
 
